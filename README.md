@@ -17,9 +17,9 @@ Approximate the function  $f_{real}(x)= \frac{\sin(12(x+0.2))}{(x+0.2)}$ using n
 
 5. $$RSS(\theta, \lambda) = (y - N\theta)^T (y - N\theta) + \lambda \theta^T \Omega_N \theta$$
 
-6.  $$N_{ij} = N_j(x_i)$$
+6. $$N_{ij} = N_j(x_i)$$
 
-7. $$\{\Omega_{N}\}_{jk} = \int N_j''(t) N_k''(t) dt$$
+7. $$\\lbraceOmega_{N}\rbrace_{jk} = \int N_j''(t) N_k''(t) dt$$
 
 8. $$\hat{\theta} = (N^T N + \lambda \Omega_N)^{-1} N^T y$$
 
