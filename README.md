@@ -7,9 +7,7 @@ Approximate the function  $f_{real}(x)= \frac{\sin(12(x+0.2))}{(x+0.2)}$ using n
 
 ## Equations
 
-## Equations
-
-1. \(f(x) = \sum_{j=1}^{N} N_j(x) \theta_j\)
+1. $$f(x) = \sum_{j=1}^{N} N_j(x) \theta_j$$
 
 2. \(N_1(X) = 1\), \(N_2(X) = X\), \(N_{k+2}(X) = d_k(X) - d_{K-1}(X)\)
 
