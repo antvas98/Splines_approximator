@@ -2,3 +2,4 @@
 splines_env/
 __pycache__/
 *.python-version
+*.png
