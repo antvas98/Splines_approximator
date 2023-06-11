@@ -5,12 +5,11 @@ Approximate the function  $f_{real}(x)= \frac{\sin(12(x+0.2))}{(x+0.2)}$ using n
 
 ![figure](https://github.com/antvas98/Splines_approximator/assets/115734703/bb5c8322-ba0c-4144-a47d-6ef6ca802fe2)
 
-We fit a natural cubic spline function of the form:
+1) \(f(x) = \sum_{j=1}^{N} N_j(x) \theta_j\)
 
-$$f(x) = \sum_{j=1}^{N} N_j(x) \theta_j$$
-where $N_1(X) = 1, N_2(X) = X, N_{k+2}(X) = d_k(X) - d_{K-1}(X)$  for $k > 2$
-and 
-$$d_k(X) = \frac{{(X - \xi_k)^3 - (X - \xi_K)^3}}{{\xi_K - \xi_k}}$$
+2) \(N_1(X) = 1\), \(N_2(X) = X\), \(N_{k+2}(X) = d_k(X) - d_{K-1}(X)\)
+
+3) \(d_k(X) = \frac{{(X - \xi_k)^3 - (X - \xi_K)^3}}{{\xi_K - \xi_k}}\)
 
 4) \(RSS(f, \lambda) = \sum_{i=1}^{N} \left(y_i - f(x_i)\right)^2 + \lambda \int \left(f''(t)\right)^2 dt\)
 
