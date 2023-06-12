@@ -13,6 +13,8 @@ Approximate the function  $f_{real}(x)= \frac{\sin(12(x+0.2))}{(x+0.2)}$ using n
 
 3. $$d_k(X) = \frac{{(X - \xi_k)^3}}{{\xi_K - \xi_k}} - \frac{{(X - \xi_K)^3+ }{{\xi_K - \xi_k}}$$
 
+3. $$d_k(X) = \frac{{(X - \xi_k)^3}}{{\xi_K - \xi_k}} - \frac{{(X - \xi_K)^3}}{{\xi_K - \xi_k}}$$
+
 4. $$RSS(f, \lambda) = \sum_{i=1}^{N} (y_i - f(x_i))^2 + \lambda \int (f''(t))^2 dt$$
 
 5. $$RSS(\theta, \lambda) = (y - N\theta)^T (y - N\theta) + \lambda \theta^T \Omega_N \theta$$
